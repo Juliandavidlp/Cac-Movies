@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Movies</title>
+</head>
+<body>
+
+    <header> <!--La cabecera, va a contener el menú de mi página.-->
+            <nav> <!--Este elemento me va a definir un conjunto de enlaces de navegación, es para hacer un menú de navegación-->
+                <h1>Cac-Movies</h1> 
+                <!-- La etiqueta para definir el texto después del logo. 
+                     La etiqueta h1 es un elemento en bloque, usa todo el ancho de la página.-->
+                <ul type="square">
+                    <!-- Una lista de ítems desordenados.
+                    El atributo type="square" es para que la lista esté ordenada con cuadrados-->
+                    <li>Tendencias</li>
+                    <li>
+                        <a href="./register.html">Registrarse</a> 
+                        <!--La etiqueta a, de anchor ("ancor" o "ancla"), es para enlaces.
+                            En este caso, hay un enlace a una ruta relativa, interna a un archivo dentro de nuestro proyecto.
+                            Para hacer esto, dentro del href se escribe "./" y, a continuación, el nombre del archivo de nuestro directorio.-->
+                    </li>
+                    <li>
+                        <a href="https://developer.themoviedb.org/docs"
+                            target="_blank"
+                            title="Ir a la API">  
+                            API Movie
+                        </a>
+                        <!--  
+                        En este caso, hay un enlace externo a una ruta absoluta.   
+                        El atributo target="_blank" es para que el enlace que creamos se abra en otra pestaña.
+                        Y el atributo title="" sirve para que el navegador me muestre una pequeña descripción cuando pasamos el cursor sobre el enlace.-->
+                    </li>
+                    <li>Iniciar sesión</li>
+                </ul>
+            </nav>
+    </header>  
+</body>
+
+<!-- <p>Con la tecla Ctrl + } comento el código VSC.</p> -->
+<!--  Usar Ctrl + x para copiar, Ctrl + v para pegar-->
+</html> 
