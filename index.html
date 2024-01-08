@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cac-Movies</title>
+
+    <link rel="Cac-Movies icon" href="./static/img/favicon.ico" type="image/x-icon">
+    <!-- Con la etiqueta link y la relación "icon", dentro del atributo rel, podemos establecer el favicon.ico para el logo de la pestaña. -->
+
+
 </head>
 <body>
 
@@ -37,6 +42,44 @@
                 </ul>
             </nav>
     </header>  
+
+    <main><!-- El contenido principal de la página. -->
+        <section id="banner"> <!-- Genero cuatro secciones dentro del contenido principal. -->
+        <!-- A la primera sección la identifico con un atributo id dentro de la etiqueta section, para después trabajar con ella por medio de Javascript o CSS. -->
+            <h1>Películas y series ilimitadas y mucho más</h1> <!--Las etiquetas h1 a h6 son etiquetas para hacer títulos y subtítulos.-->
+        </section> 
+        <section id="search">
+            <h2>¿Qué estás buscando?</h2>
+
+        </section>
+        <section id="popular">
+            <h2>Las tendencias de hoy</h2>
+            <div id="popular-list"> <!--Un contentedor, un divisor donde puedo agrupar distintos elementos html. La etiqueta div es un elemento en bloque.-->
+                <a href="">
+                    <img src="https://picsum.photos/200/300" alt="Foto de una película." width="200" >
+                    <!-- Con la etiqueta img voy a agregar una imagen, a partir del atributo src voy a especificar su ruta.
+                         El atributo alt posibilita una semántica de acuerdo al usuario, 
+                         por un lado, si no carga la imagen indica el contenido de la misma, por el otro,
+                         sirve para la accesibilidad y los asistentes virtuales de las personas no videntes.-->
+                </a>
+                <a href="">
+                    <img src="./static/img/Oppenheimer.jpg" alt="Foto de una película." width="200" >
+                    <!-- Una ruta relativa, a un archivo interno. 
+                         Las rutas pueden ser relativas o absolutas.-->
+                </a>
+               
+            </div>
+        </section>
+        <section id="top-rated">
+            <h2>Las más vistas</h2>
+        </section>
+    </main>
+
+    <footer><!-- El pie de página. -->
+        <a href="">Términos y condiciones</a>  <!--Etiquetas en linea, para separarlas usar el br, la etiqueta de break. -->
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Ayuda</a>
+    </footer>
 </body>
 
 <!-- <p>Con la tecla Ctrl + } comento el código VSC.</p> -->
