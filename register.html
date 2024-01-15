@@ -10,6 +10,81 @@
             <nav> 
                 <h1>Cac-Movies</h1> 
             </nav>
-    </header>   
+    </header>  
+    <main>
+        <!--El contenedor del formulario-->
+        <section>
+            <h2>Registro</h2>
+            <!--Creo un formulario-->
+            <form action="" id="formRegister" method="get">
+                <!--El atributo action es para colocar la ruta a donde vamos a enviar los datos del usuario.
+                    El atributo method sirve para especificar el tipo de solicitud que le vamos a enviar al servidor (por ejemplo, post, get, put -update- o delete) .-->   
+                    <div>
+                        <!-- Para especificar el nombre del campo en un formulario uso la etiqueta:-->
+                        <label for="firstname">Nombre</label>
+                        <!--Para el input:-->
+                        <input type="text" name="firstname" id="firstname" maxlength="10" minlength="2">
+                                            <!--El atributo name es para que el servidor sepa cómo se llama 
+                                                el nombre del campo que le enviamos. Hay que agregarlo sí o sí.
+                                                El atributo for de la etiqueta label debe ser la misma que la del atributo name    
+                                                porque si usamos una etiqueta label hay que relacionar el atributo for al campo con el que esta va a estar relacionada.-->
+                    </div>      
+                    <div>
+                       
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="lastname" id="lastname">
+                                            
+                    </div>     
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                                    <!--Para evitar errores del servidor gracias a los usuarios en este caso en el atributo type
+                                        colocar el valor "email". Este atributo valida que ingresemos una dirección de correo.-->                     
+                    </div> 
+                    <div>
+                       
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+                                <!-- En el atributo type, en este caso coloco password para ocultar la contraseña del usuario.-->
+                                            
+                    </div>   
+                    <div>
+                       
+                        <label for="datebirth">Fecha de nacimiento</label>
+                        <input type="date" name="datebirth" id="datebirth">
+                                <!-- En el atributo type, en este caso coloco el valor date para que me muestre un calendario.-->
+                                            
+                    </div>   
+                    <div>
+                        <label for="country">País</label>
+                        <!--Para hacer un menú seleccionable se usa la etiqueta select.
+                            Y con option voy agregando opciones-->
+                        <select name="country" id="country">
+                            <option value="">--Seleccione--</option>
+                            <option value="AR">Argentina</option>
+                            <option value="BOL">Bolivia</option>
+                            <option value="BRA">Brasil</option>
+                            <option value="CHI">Chile</option>
+                            <option value="COL">Colombia</option>
+                            <option value="ECU">Ecuador</option>
+                            <option value="PAR">Paraguay</option>
+                            <option value="PER">Perú</option>
+                            <option value="URU">Uruguay</option>
+                            <option value="VEN">Venezuela</option>
+                            <!--Ojo: El contenido del atributo value 
+                                se envía y se guarda en el servidor, en la base de datos.-->
+                        </select>
+
+                    </div>
+ 
+                    <!--Hago un botón con el valor submit y el atribuo value para enviar los datos ingresados-->
+                    <input type="submit" value="Enviar">  
+                    <!-- Los tipos de inputs en html en:
+                         https://www.w3schools.com/html/html_form_input_types.asp-->
+
+
+            </form>
+        </section>
+    </main> 
 </body>
 </html> 
