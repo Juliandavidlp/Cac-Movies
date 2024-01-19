@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Register</title>
     <link rel="Cac-Movies icon" href="./static/img/favicon.ico" type="image/x-icon">
 </head>
@@ -14,7 +13,7 @@
             </nav>
     </header>  
     <main>
-        <!--El contenedor del formulario-->
+       <!--El contenedor del formulario-->
         <section>
             <h2>Registro</h2>
             <!--Creo un formulario-->
@@ -22,13 +21,14 @@
                 <!--El atributo action es para colocar la ruta a donde vamos a enviar los datos del usuario.
                     El atributo method sirve para especificar el tipo de solicitud que le vamos a enviar al servidor (por ejemplo, post, get, put -update- o delete) .-->   
                     <div>
-                        <!-- Para especificar el nombre del campo en un formulario uso la etiqueta:-->
+                        <!-- Para especificar el nombre del campo en un formulario uso:-->
                         <label for="firstname">Nombre</label>
                         <!--Para el input:-->
                         <input type="text" name="firstname" id="firstname" maxlength="10" minlength="2">
                                             <!--El atributo name es para que el servidor sepa cómo se llama el nombre del campo que le enviamos. Hay que agregarlo.
-                                                El atributo for de la etiqueta label debe ser el mismo que el del atributo name  
-                                                porque si usamos una etiqueta label hay que relacionar el atributo for al campo con el que esta va a estar relacionada.-->
+                                                El atributo for de la etiqueta label debe coincidir con el del atributo name  
+                                                porque si usamos una etiqueta label hay que relacionarla al atributo for del campo vinculado.-->
+                                                
                     </div>      
                     <div>
                         <label for="lastname">Apellido</label>
