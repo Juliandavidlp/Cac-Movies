@@ -44,10 +44,13 @@
             <div>
                 <table border="2">
                 <!-- Por otro lado, hice una tabla enmarcada. Indiqué las filas con la etiqueta tr (de table row) y las columnas con la etiqueta td (de table data cell). -->
-                    <tbody> <!--Definí el cuerpo de la tabla:-->
-                        <tr><td colspan="2">Info</td></tr>
-                        <!-- El atributo colspan con el valor "2" es para que una celda ocupe dos columnas,
-                             en este caso para que no deje un espacio. -->
+                    <thead> <!--Primero identifiqué la cabeza, dentro del head la etiqueta para las columnas es th:-->
+                        <th colspan="2">Info</th>
+                         <!-- El atributo colspan con el valor "2" es para que una celda ocupe dos columnas,
+                              en este caso para que no deje un espacio. -->
+                    </thead>
+
+                    <tbody> <!--Después definí el cuerpo de la tabla:-->
                         <tr><td><b>Status</b></td><td>Released</td></tr>
                         <tr><td><b>Original Language</b></td><td>English</td></tr>
                         <tr><td><b>Budget</b></td><td>100 million USD</td></tr>
