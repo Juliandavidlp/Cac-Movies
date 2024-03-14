@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><!--La cabecera-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Movies</title>
+    <link rel="Cac-Movies icon" href="../static/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <header> <!--El encabezado, donde contengo el menú de navegación de la página.-->
+            <nav> <!--Este elemento me va a definir un conjunto de enlaces de navegación, es para hacer un menú de navegación-->   
+                <h1>Cac-Movies 🎥</h1> 
+                <ul type="square"><!--Unordered list-->
+                    <li><a href="#popular">Tendencias</a></li> <!--Etiqueta enlace, con un enlace interno al documento html-->
+                    <li>
+                        <a href="./register.html">Registrarse</a>                
+                    </li>
+                    <li> 
+                        <a href="https://developer.themoviedb.org/docs"
+                            target="_blank"
+                            title="Ir a la API">  
+                            API Movie
+                        </a>
+                    </li>
+                    <li><a href="#" target="_blank">Iniciar sesión</a></li>
+                </ul>
+            </nav>
+    </header>  
+
+    <main><!-- El contenido principal.-->      
+        <section id="banner-movie">
+            <article>
+                <header>
+                    <h2>Oppenheimer</h2>
+                    <img src="../static/img/Oppenheimer.jpg" alt="Pelicula de Oppenheimer">
+                    <footer>
+                        <!--Una aclaración corta:-->
+                        <p>Una película biográfica de suspenso, ganadora del Oscar a Mejor Película en 2024.
+                            Dirigida por Christopher Nolan.</p>
+                    </footer>            
+                </header>    
+            </article>
+        </section>
+
+        <section id="more-info">
+            
+            <div> <!--Dentro de la sección generé dos contenedores en la página-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MVvGSBKV504?si=FFpeQRsF4BDz4uQu" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!--Un iframe me va a permitir agregar o incrustar un recurso externo en nuestra página.-->
+            </div>
+            <div>
+                <table border="2">
+                <!-- Por otro lado, hice una tabla enmarcada. Indiqué las filas con la etiqueta tr (de table row) y las columnas con la etiqueta td (de table data cell). -->
+                    <thead> <!--Primero identifiqué la cabeza, dentro del head la etiqueta para las columnas es th:-->
+                        <th colspan="2">Info</th>
+                         <!-- El atributo colspan con el valor "2" es para que una celda ocupe dos columnas,
+                              en este caso para que no deje un espacio. -->
+                    </thead>
+
+                    <tbody> <!--Después definí el cuerpo de la tabla:-->
+                        <tr><td><b>Status</b></td><td>Released</td></tr>
+                        <tr><td><b>Original Language</b></td><td>English</td></tr>
+                        <tr><td><b>Budget</b></td><td>100 million USD</td></tr>
+                        <tr><td><b>Revenue</b></td><td>953.8 million USD</td></tr>
+                    </tbody>
+                
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Términos y condiciones</a>  
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Ayuda</a>
+    </footer>
+
+</body>
+
+</html> 
