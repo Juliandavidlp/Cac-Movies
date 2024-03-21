@@ -34,7 +34,7 @@
     <!-- Con la etiqueta link y la relación "icon" dentro del atributo rel, podemos establecer el favicon.ico para el logo de la pestaña. -->
 
      <!--Para enlazar el script con las hojas de estilos de CSS:--> 
-     <link rel="stylesheet" href="./css/styles.css"> 
+     <link rel="stylesheet" href="./static/css/style.css"> 
 
      <!--La etiqueta script me permite escribir código Javascript para ejecutar algo
      <script> 
@@ -47,10 +47,10 @@
     <header> <!--Indico la cabecera, donde contengo el menú de la página.-->
             <nav> <!--Este elemento define un conjunto de enlaces de navegación, 
                       sirve para hacer un menú de navegación con distintos enlaces.-->
-                <h1>Cac-Movies</h1> 
+                <h1>Cac-Movies 🎥</h1> 
                 <!-- La etiqueta para definir el texto después del logo. 
                      Esta etiqueta h1 es un elemento en bloque, usa todo el ancho de la página.-->
-                <ul type="square">
+                <ul type="square" class="nav-links">
                     <!-- Una lista de ítems desordenados.
                     El atributo type="square" es para que la lista no posea círculos y esté ordenada con cuadrados-->
                     <li><a href="#popular">Tendencias</a></li>
@@ -84,6 +84,7 @@
         </section> 
         <section id="search">
             <h2>¿Qué estás buscando?</h2>
+            <input type="text" placeholder="Buscar...">
         </section>
         <section id="popular">
             <h2>Las tendencias de hoy</h2>
