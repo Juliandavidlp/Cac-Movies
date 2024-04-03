@@ -23,7 +23,6 @@
     <!-- Nota: Para ver más, ingresar a "The Open Graph protocol", es importante compartir y renderizar correctamente en distintas plataformas nuestra página. -->
 
     <!-- SEO -->
-
     <!-- Para enlazar a un recurso externo alternativo a la página -->
     <link rel="alternate" href="#/en" hreflang="en-GB">
     <!-- Para que el navegador detecte cuál es la página principal entre dos páginas duplicadas.  -->
@@ -33,7 +32,15 @@
     <link rel="Cac-Movies icon" href="./static/img/favicon.ico" type="image/x-icon">
     <!-- Con la etiqueta link y la relación "icon" dentro del atributo rel, podemos establecer el favicon.ico para el logo de la pestaña. -->
 
-     <!--Para enlazar el script con las hojas de estilos de CSS:--> 
+    <!-- Google Fonts: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+
+    <!-- Agregar Fontawesome: -->
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+
+     <!--Enlazo el script con un archivo CSS externo:--> 
      <link rel="stylesheet" href="./static/css/style.css"> 
 
      <!--La etiqueta script me permite escribir código Javascript para ejecutar algo
@@ -44,12 +51,19 @@
 </head>
 <body>
 
-    <header> <!--Indico la cabecera, donde contengo el menú de la página.-->
+    <header> <!--Indico la cabecera, donde contengo el menú de navegación.-->
             <nav> <!--Este elemento define un conjunto de enlaces de navegación, 
                       sirve para hacer un menú de navegación con distintos enlaces.-->
-                <h1>Cac-Movies 🎥</h1> 
-                <!-- La etiqueta para definir el texto después del logo. 
-                     Esta etiqueta h1 es un elemento en bloque, usa todo el ancho de la página.-->
+
+                      <div id="logo">
+                            <h1><!-- La etiqueta para definir el texto después del logo. 
+                                Esta etiqueta h1 es un elemento en bloque, usa todo el ancho de la página.-->
+                                <!-- El logo de fontawesome: -->
+                                <i class="fas fa-yin-yang fa-pulse"></i>
+                                <span>Cac-Movies 🎥</span>
+                            </h1>
+                        </div>
+                
                 <ul type="square" class="nav-links">
                     <!-- Una lista de ítems desordenados.
                     El atributo type="square" es para que la lista no posea círculos y esté ordenada con cuadrados-->
@@ -95,7 +109,7 @@
                          por un lado, si no carga la imagen indica el contenido de la misma, 
                          por el otro, es para la accesibilidad del usuario y los asistentes virtuales.-->
                 <a href="">
-                    <img src="./static/img/Oppenheimer.jpg" alt="Foto de una película." width="200" >
+                    <img src="./static/img/Oppenheimer.jpg" alt="Foto de la película Oppenheimer." width="200" >
                     <!-- Una ruta relativa, en un archivo interno. 
                          Las rutas pueden ser relativas o absolutas.-->
                 </a>
@@ -104,16 +118,21 @@
         </section>
         <section id="top-rated">
             <h2>Las más vistas</h2>
+            <div id="top-rated-list">
+
+            </div>
         </section>
     </main>
 
     <footer><!-- El pie de página. -->
-        <a href="#">Términos y condiciones</a>  <!--Etiquetas en linea, para separarlas hay que usar el br, la etiqueta de break. -->
-        <a href="#">Preguntas frecuentes</a>
-        <a href="#">Ayuda</a>
+        <div class="nav-links">
+            <a href="#">Términos y condiciones</a>  <!--Etiquetas en linea, para separarlas hay que usar el br, la etiqueta de break. -->
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Ayuda</a>
+        </div>
     </footer>
 
 </body>
 <!-- <p>Con la tecla Ctrl + } comento el código VSC.</p> -->
-<!--  Usar Control + v para copiar, Ctrl + x para cortar y Ctrl + v para pegar-->
+<!--  Usar Control + c para copiar, Ctrl + x para cortar y Ctrl + v para pegar>-->
 </html> 

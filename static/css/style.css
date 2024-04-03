@@ -1,16 +1,35 @@
+/* La pseudoclase :root {] representa al elemento html y, 
+    por ejemplo, nos permite declarar variable en css.
+    Una variable se declara dentro de la pseudoclase :root 
+    de la siguiente manera --nombre-de-la-variable: valor
+    y se referencia como un valor con la función var(--nombre-de-la-variable);
+    en distintas propiedades.*/
+
+    :root{
+        --bg-color:#181419; 
+        --primary-color:#9f3647;
+        --secondary-color: #ffc098;
+        --third-color: #db4648;
+        --third-bis-color: #db4648f2;
+        --bg-input-color: #4f31572c;    
+    }
+
 /* Selector universal */
-/*
+
 * {
-   margin:"0";
-    padding:"0"; 
-    font-family: Arial, Helvetica, sans-serif;
+   /* margin:"0";
+    padding:"0";  */
+    font-family:'Nunito', 'Sans-serif';
 } 
-*/
+
+body{
+    background-color: var(--bg-color);
+}
 
 /*Selector por etiqueta*/
 h2 {
-    color:blue;
-    font-size: 16px;
+    color: var(--primary-color);
+     font-size: 2vw; /* 2% del ancho de la ventana gráfica. */
 }
 
 /*Selector por clase*/
@@ -20,15 +39,13 @@ h2 {
 
 /*Selector por id*/
 #logo {
-    font-weight: bold;
-} /* Para que el tamaño de la fuente sea más grande.*/
-
-
-
-.nav-links-a{
-    color: deepskyblue!important;
-}
-
-#link-tendencias{
-    color: chartreuse;
+    /* Para que el tamaño de la fuente sea más grande: */
+    font-weight: bold; 
 } 
+
+#banner{
+    background-image: url('../img/banner-bg.jpg');
+    background-size: cover; /* para cubrir el espacio del elemento. */
+    background-position: center;
+    height: 60vh; /* 60% del alto de la ventana gráfica. */
+}
