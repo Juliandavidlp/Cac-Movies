@@ -51,7 +51,7 @@
 </head>
 <body>
 
-    <header> <!--Indico la cabecera, donde contengo el menú de navegación.-->
+    <header class="header"> <!--Indico la cabecera, donde contengo el menú de navegación.-->
             <nav> <!--Este elemento define un conjunto de enlaces de navegación, 
                       sirve para hacer un menú de navegación con distintos enlaces.-->
 
@@ -85,7 +85,14 @@
                         El atributo target="_blank" es para que el enlace se abra en otra pestaña del navegador.
                         Y el atributo title="" sirve para que el navegador nos muestre una pequeña descripción cuando pasamos el cursor sobre el enlace.-->
                     </li>
-                    <li><a href="#" target="_blank">Iniciar sesión</a></li>
+                    <li><a href="#" target="_blank" class="btn-cac">
+                        <!-- Un ícono de fontawesome: -->
+                         <i class="fas fa-sign-in-alt"></i> 
+                         <span class="login-text">
+                            Iniciar sesión
+                        </span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
     </header>  

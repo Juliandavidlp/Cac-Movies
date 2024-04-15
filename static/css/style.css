@@ -9,7 +9,7 @@
         --bg-color:#181419; 
         --primary-color:#9f3647;
         --secondary-color: #ffc098;
-        --third-color: #db4648;
+        --third-color: #db4649;
         --third-bis-color: #db4648f2;
         --bg-input-color: #4f31572c;    
     }
@@ -26,9 +26,14 @@ body{
     background-color: var(--bg-color);
 }
 
+a { /*Para sacar el subrayado de los enlaces: */
+    text-decoration: none;
+
+}
+
 /*Selector por etiqueta*/
 h2 {
-    color: var(--primary-color);
+     color:#FFF;
      font-size: 2vw; /* 2% del ancho de la ventana gráfica. */
 }
 
