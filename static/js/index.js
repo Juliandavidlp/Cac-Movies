@@ -16,7 +16,7 @@ let movie2= 'El padrino';
 let rating= 8; //number - integer
 let rating2=9.7; //number - float
 let rating3= "6.5";
-let is New= false; // boolean o lógico
+let isNew= false; // boolean o lógico
 
 console.log(typeof(rating3));
 
