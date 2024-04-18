@@ -1,0 +1,1 @@
+console.log("Buen día mundo desde la consola!")
