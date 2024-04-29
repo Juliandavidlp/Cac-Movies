@@ -58,7 +58,7 @@ h2 {
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 20px;
 
     /* max-height: 800; */
@@ -110,3 +110,18 @@ h2 {
     right: 500px
 
 }
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; 
+}
+
+/* #search{
+    position: sticky;
+    top:0;
+    z-index: 9999;
+
+} */
