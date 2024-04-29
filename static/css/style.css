@@ -84,5 +84,6 @@ h2 {
     padding: 10px;
     color:#FFF;
     border-radius: 10px;
+    /* Para que el botón tenga el símbolo del dedito al seleccionarlo: */
     cursor: pointer
 }
