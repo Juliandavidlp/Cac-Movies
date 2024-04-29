@@ -58,14 +58,18 @@ h2 {
 
 .container{
     max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
     /* max-height: 800; */
 
     /* Relleno o espaciado: */
     /* padding: 50px 20px; */
-    padding: 20px;
+   
 
     /* Márgenes: */
-    margin: 20px;
+    /* margin: 20px; */
+
 
    /* Bordes: */
    /* border: 10px solid saddlebrown; */
