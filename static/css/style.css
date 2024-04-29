@@ -83,5 +83,6 @@ h2 {
     background-color: var(--primary-color);
     padding: 10px;
     color:#FFF;
-    border-radius: 10px
+    border-radius: 10px;
+    cursor: pointer
 }
