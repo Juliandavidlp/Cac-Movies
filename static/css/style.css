@@ -87,3 +87,26 @@ h2 {
     /* Para que el botón tenga el símbolo del dedito al seleccionarlo: */
     cursor: pointer;
 }
+
+#popular-list{
+    height: 1000px;
+    position: relative;
+}
+
+#movie-1{
+    width: 100px;
+    height: 350px;
+    position: relative;
+    top: 50px;
+    left: 500px
+
+}
+
+#movie-2{
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: 50px;
+    right: 500px
+
+}
