@@ -54,3 +54,9 @@ h2 {
     background-position: center;
     height: 60vh; /* 60% del alto de la ventana gráfica. */
 }
+
+.container{
+    background-color:;
+    max-width: 1200px;
+    height: ;
+}
