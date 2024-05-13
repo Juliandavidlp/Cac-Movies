@@ -108,48 +108,92 @@
                 <a href="./templates/register.html" id="btn-register" class="btn-cac">Registrarse</a>
             </div>
         </section> 
-        <section id="search">
-            <h2>¿Qué estás buscando?</h2>
-            <input type="text" placeholder="Buscar...">
+        <section id="search" class="container">
+            <h2 class="search-title">¿Qué estás buscando?</h2>
+            <input type="text" class="input-search" placeholder="Buscar...">
         </section>
         <section id="popular">
-            <h2>Las tendencias de hoy</h2>
+            <h2 class="h2-subtitle">Las tendencias de hoy</h2>
             <div id="popular-list"> <!--Un contentedor, un divisor donde puedo agrupar distintos elementos html. La etiqueta div es un elemento en bloque.-->
                <div class="movie-item" id="movie-1">
     
-                         <!--<a href=""><img src="https://picsum.photos/200/300" alt="Foto de una película." width="200" ></a>
-                            Con la etiqueta img voy a agregar una imagen, a partir del atributo src indico la ruta.
-                                El atributo alt posibilita una semántica de acuerdo al usuario, 
-                                por un lado, si no carga la imagen indica el contenido de la misma, 
-                                por el otro, es para la accesibilidad del usuario y los asistentes virtuales.-->
-                        <a href="">
-                            <img src="./static/img/Oppenheimer.jpg" alt="Foto de la película Oppenheimer." >
-                            <!-- Una ruta relativa, en un archivo interno. 
-                                Las rutas pueden ser relativas o absolutas.-->
-                            <div>
-                                <p>Oppenheimer</p>
-                                <p>2023 ~ 10.0</p>
-                            </div>    
-                        </a>    
-                </div>  
-                <div class="movie-item" id="movie-2">
+                     <!--<a href=""><img src="https://picsum.photos/200/300" alt="Foto de una película." width="200" ></a>
+                        Con la etiqueta img voy a agregar una imagen, a partir del atributo src indico la ruta.
+                            El atributo alt posibilita una semántica de acuerdo al usuario, 
+                            por un lado, si no carga la imagen indica el contenido de la misma, 
+                            por el otro, es para la accesibilidad del usuario y los asistentes virtuales.-->
                     <a href="">
-                        <img src="./static/img/poor-things.jpg" alt="Foto de la película Poor things con Ema Stone." >
+                        <img class="movie-item-img" src="./static/img/Oppenheimer.jpg" alt="Foto de la película Oppenheimer." >
                         <!-- Una ruta relativa, en un archivo interno. 
                             Las rutas pueden ser relativas o absolutas.-->
-                        <div>
-                            <p>Poor Things</p>
-                            <p>2023 ~ 9.8</p>
+                        <div class="movie-item-detail">
+                            <p class="movie-item-detail-title">Oppenheimer</p>
+                            <p class="movie-item-detail-subtitle">2023 ~ 10.0</p>
+                        </div>    
+                    </a>    
+                </div>  
+                <div class="movie-item">
+                    <a href="">
+                        <img class="movie-item-img" src="./static/img/poor-things.jpg" alt="Foto de la película Poor things con Ema Stone." >
+                        <div class="movie-item-detail">
+                            <p class="movie-item-detail-title">Poor Things</p>
+                            <p class="movie-item-detail-subtitle">2023 ~ 9.8</p>
                         </div>    
                     </a>    
                 </div>       
+                <div class="movie-item">
+                    <a href="">
+                        <img class="movie-item-img" src="#" alt="Foto de la película Poor things con Ema Stone." >
+                        <div class="movie-item-detail">
+                            <p class="movie-item-detail-title">...</p>
+                            <p class="movie-item-detail-subtitle">2023 ~ 9.8</p>
+                        </div>    
+                    </a>    
+                </div>     
+                <div class="movie-item">
+                    <a href="">
+                        <img class="movie-item-img" src="#" alt="Foto de la película Poor things con Ema Stone." >
+                        <div class="movie-item-detail">
+                            <p class="movie-item-detail-title">...</p>
+                            <p class="movie-item-detail-subtitle">2023 ~ 9.8</p>
+                        </div>    
+                    </a>    
+                </div>     
             </div>
         </section>
         <section id="top-rated">
-            <h2>Las más vistas</h2>
-            <div id="top-rated-list">
-
-            </div>
+            <div class="container">
+                <h2 class="h2-subtitle">Las más vistas</h2>
+                <div id="top-rated-list">
+                    <div class="movie-item-v2">
+                        <div class="wrapper">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="movie-item-detail-v2">
+                            <p class="movie-item-detail-title-v2">...</p>
+                            <p class="movie-item-detail-subtitle-v2">2023 ~ 9.8</p>
+                        </div> 
+                    </div>
+                    <div class="movie-item-v2">
+                        <div class="wrapper">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="movie-item-detail-v2">
+                            <p class="movie-item-detail-title-v2">...</p>
+                            <p class="movie-item-detail-subtitle-v2">2023 ~ 9.8</p>
+                        </div> 
+                    </div>
+                    <div class="movie-item-v2">
+                        <div class="wrapper">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="movie-item-detail-v2">
+                            <p class="movie-item-detail-title-v2">...</p>
+                            <p class="movie-item-detail-subtitle-v2">2023 ~ 9.8</p>
+                        </div> 
+                    </div>
+                </div>    
+            </div>       
         </section>
     </main>
 
