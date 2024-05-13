@@ -20,7 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Nunito', 'Sans-serif';
+    font-family:'Nunito', 'Sans-serif', 'System-UI';
 } 
 
 body{
@@ -38,10 +38,28 @@ h2 {
      font-size: 2vw; /* 2% del ancho de la ventana gráfica. */
 }
 
+.header{
+    background-color: var(--third-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; 
+}
+
 /*Selector por clase*/
 .nav-links{
     list-style: none;
 } /*Para que la lista de enlaces no tenga puntitos ni cuadrados.*/
+
+.btn-cac{
+    background-color: var(--primary-color);
+    padding: 10px;
+    color:#FFF;
+    border-radius: 10px;
+    /* Para que el botón tenga el símbolo del dedito al seleccionarlo: */
+    cursor: pointer;
+}
 
 /*Selector por id*/
 #logo {
@@ -53,14 +71,13 @@ h2 {
     background-image: url('../img/banner-bg.jpg');
     background-size: cover; /* para cubrir el espacio del elemento. */
     background-position: center;
-    height: 60vh; /* 60% del alto de la ventana gráfica. */
+    height: 600px; /*60vh - 60% del alto de la ventana gráfica. */
+    box-shadow:inset 0 0 0 2000px rgba(84, 84, 84, 0.5)
 }
 
 .container{
     max-width: 1200px;
-    margin: 0px auto;
-    padding: 20px;
-
+    margin: 120px auto;
     /* max-height: 800; */
 
     /* Relleno o espaciado: */
@@ -79,16 +96,61 @@ h2 {
    
 }
 
-.btn-cac{
-    background-color: var(--primary-color);
-    padding: 10px;
-    color:#FFF;
-    border-radius: 10px;
-    /* Para que el botón tenga el símbolo del dedito al seleccionarlo: */
+.banner-card{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 160px;
+}
+
+.search-title{
+    color: white;
+    font-size: 3vw;
+}
+
+.input-search{
+    background-color: var(--bg-input-color);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    width: 70%;
+}
+
+.movie-item{
+    border-radius: 20px;
+    width: 200px;
+    font-size: 20px;
     cursor: pointer;
 }
 
-#popular-list{
+.movie-item-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-item-v2{
+    border-radius: 20px;
+    width: 170px;
+    min-width:170px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.movie-item-img-v2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* #popular-list{
     height: 1000px;
     position: relative;
 }
@@ -109,15 +171,7 @@ h2 {
     top: 50px;
     right: 500px
 
-}
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2; 
-}
+} 
 
 /* #search{
     position: sticky;
