@@ -14,9 +14,7 @@
         --bg-input-color: #4f31572c;    
     }
 
-/* Selector universal */
-
-* {
+* { /* Selector universal */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,8 +30,7 @@ a { /*Para sacar el subrayado de los enlaces: */
 
 }
 
-/*Selector por etiqueta*/
-h2 {
+h2 { /*Selector por etiqueta*/
      color:#FFF;
      font-size: 2vw; /* 2% del ancho de la ventana gráfica. */
 }
@@ -92,8 +89,7 @@ h2 {
    /* border-width: 5px 10px 15px; t l/r b*/
    /* border-width: 5px 10px 15px 20 px;
    border-style: solid;
-   border-color: saddlebrown */
-   
+   border-color: saddlebrown */  
 }
 
 .banner-card{
@@ -148,8 +144,6 @@ h2 {
     object-fit: cover;
 }
 
-
-
 /* #popular-list{
     height: 1000px;
     position: relative;
@@ -161,7 +155,6 @@ h2 {
     position: relative;
     top: 50px;
     left: 500px
-
 }
 
 #movie-2{
@@ -170,12 +163,10 @@ h2 {
     position: absolute;
     top: 50px;
     right: 500px
-
 } 
 
 /* #search{
     position: sticky;
     top:0;
     z-index: 9999;
-
-} */
+}*/
