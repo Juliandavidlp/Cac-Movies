@@ -200,12 +200,10 @@ h2 { /*Selector por etiqueta*/
     z-index: 9999;
 }*/
 
-
 /* Selector agrupado */
 #popular, #top-rated{
     text-align: center;
 } 
-
 
 /* Pseudoclases
 
@@ -226,3 +224,12 @@ a partir del estilado de elementos.*/
     color:green;
 }
 
+/* Pseudoelementos
+
+Los pseudoelementos se añaden a los selectores y permiten añadirle
+estilos a una parte concreta de un elemento. Por ejemplo, a la primer
+letra de un párrafo, a la primer línea de un texto, etc.*/
+
+.movie-item-detail-subtitle::after{
+    content: "🌟"
+}
