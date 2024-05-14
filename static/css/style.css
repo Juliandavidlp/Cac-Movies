@@ -64,6 +64,11 @@ h2 { /*Selector por etiqueta*/
     cursor: pointer;
 }
 
+.btn-cac:hover{
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
 /*Selector por id*/
 #logo {
     /* Para que el tamaño de la fuente sea más grande: */
