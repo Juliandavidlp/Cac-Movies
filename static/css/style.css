@@ -49,6 +49,12 @@ h2 { /*Selector por etiqueta*/
     list-style: none;
 } /*Para que la lista de enlaces no tenga puntitos ni cuadrados.*/
 
+/* Selectores descendentes */
+.nav-links a{
+    color: #FFF;
+    font-weight: bold;
+}
+
 .btn-cac{
     background-color: var(--primary-color);
     padding: 10px;
@@ -97,6 +103,24 @@ h2 { /*Selector por etiqueta*/
     text-align: center;
     padding: 0px 160px;
 }
+
+.banner-card h1{
+    color:#FFF;
+    font-size: 4vw;
+}
+
+/* Selector de hijos directos */
+.banner-card > h2{
+    margin-bottom: 20px;
+} 
+
+/* Selector para hermanos adyacentes */
+/* h1 + h2{
+} */
+
+/* Selector para hermanos en general */
+/* h1 ~ h2{
+} */
 
 .search-title{
     color: white;
@@ -170,3 +194,9 @@ h2 { /*Selector por etiqueta*/
     top:0;
     z-index: 9999;
 }*/
+
+
+/* Selector agrupado */
+#popular, #top-rated{
+    text-align: center;
+} 
