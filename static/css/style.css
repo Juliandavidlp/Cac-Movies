@@ -200,3 +200,24 @@ h2 { /*Selector por etiqueta*/
 #popular, #top-rated{
     text-align: center;
 } 
+
+
+/* Pseudoclases
+
+Las pseudoclases se trabajan para alterar elementos que están
+en una posición o un estado específico, como en el ejemplo.
+Y podemos llegar a detectar ciertos eventos y cambiar comportamientos 
+a partir del estilado de elementos.*/
+
+#footer a:first-child{
+    color: #FFF;
+}
+
+#footer a:last-child{
+    color:red;
+}
+
+#footer a:nth-child(2){
+    color:green;
+}
+
