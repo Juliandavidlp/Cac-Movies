@@ -75,6 +75,20 @@ h2 { /*Selector por etiqueta*/
     font-weight: bold; 
 } 
 
+#logo:hover{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: tilt-n-move-shaking 0.5s infinite;
+}
+
+@keyframes tilt-n-move-shaking {
+    0% {transform: translate(0,0) rotate(0deg);}
+    25%{transform: translate(5px,5px) rotate(5deg);}
+    50%{transform: translate(0,0) rotate(0deg);}
+    75%{transform: translate(-5px,5px) rotate(-5deg);}
+    100%{transform: translate(0,0) rotate(0deg);}
+
+}
+
 #banner{
     background-image: url('../img/banner-bg.jpg');
     background-size: cover; /* para cubrir el espacio del elemento. */
@@ -240,5 +254,29 @@ letra de un párrafo, a la primer línea de un texto, etc.*/
 
 #movie-1{
 
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
+    /* transform: scale(0.5); */
+    /* transform: translate(40px,80px);*/
+    transform: rotate(20deg) scale(1.2) translate(20px, 50px) skew(40deg);
+    /* Ver cómo usar las funciones en 3D */
+} 
+
+/* Transiciones */
+
+/* Nos permiten cambiar los valores de una propiedad,
+transitar de un estado inicial a un estado final a partir de determinadas propiedades. */
+
+#movie-2{
+    background-color: red;
+    transition: all 5.5s linear 1s;
+    /* La propiedad transition se puede desglosar y trabajar por partes para afectar propiedades en particular */
+}
+
+/* Animaciones */
+
+/* Lo que diferencia las animaciones de las transiciones es que en las animaciones podemos crear fotogramas o estados 
+de los elementos a través de reglas (keyframes). */
+
+#logo{
+
 }
