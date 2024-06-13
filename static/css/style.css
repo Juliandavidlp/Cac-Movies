@@ -46,7 +46,7 @@ h2 { /*Selector por etiqueta*/
 
 nav{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* La división de columnas va a depender de la cantidad de hijos que tenga el contenedor.
     Y con flex-direction: column o por defecto (row); puedo cambiar el comportamiento de los elementos o ítems,
     la propiedad flex-direction establece cuál es el eje principal o secundario en cuestión. */
@@ -268,31 +268,27 @@ letra de un párrafo, a la primer línea de un texto, etc.*/
 
 /* Transformaciones */
 
-#movie-1{
+/* #movie-1{
 
     /* transform: rotate(20deg); */
     /* transform: scale(0.5); */
     /* transform: translate(40px,80px);*/
     /* transform: rotate(20deg) scale(1.2) translate(20px, 50px) skew(40deg); */
     /* Ver cómo usar las funciones en 3D */
-} 
 
 /* Transiciones */
 
 /* Nos permiten cambiar los valores de una propiedad,
 transitar de un estado inicial a un estado final a partir de determinadas propiedades. */
 
-#movie-2{
+/* #movie-2{
     /* background-color: red;
     transition: all 5.5s linear 1s; */
     /* La propiedad transition se puede desglosar y trabajar por partes para afectar propiedades en particular */
-}
 
 /* Animaciones */
 
 /* Lo que diferencia las animaciones de las transiciones es que en las animaciones podemos crear fotogramas o estados 
 de los elementos a través de reglas (keyframes). */
 
-#logo{
-
-}
+/* #logo{}*/
