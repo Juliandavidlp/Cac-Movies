@@ -54,12 +54,19 @@ nav{
     /* Alinear con respecto al eje principal: */
     /* justify-content: center; start; end; space-between; space-around; space-evenly; */
     justify-content: space-between;
+    height: 80px;
+
+    /* Alinear con respecto al eje secundario */
+    align-items: center; /*start; end; strech; */
+    padding: 0px 50px;
 }
 
 /*Selector por clase*/
 .nav-links{
+    /*Para que la lista de enlaces no tenga puntitos ni cuadrados.*/
     list-style: none;
-} /*Para que la lista de enlaces no tenga puntitos ni cuadrados.*/
+    display: flex;
+} 
 
 /* Selectores descendentes */
 .nav-links a{
