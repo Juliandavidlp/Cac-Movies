@@ -48,8 +48,8 @@ nav{
     display: flex;
     /* flex-direction: column; */
     /* La división de columnas va a depender de la cantidad de hijos que tenga el contenedor.
-    Y con flex-direction: column o por defecto (row); puedo cambiar el comportamiento de los elementos o ítems,
-    la propiedad flex-direction establece cuál es el eje principal o secundario en cuestión. */
+    Con flex-direction: column o por defecto (row); puedo cambiar el comportamiento de los elementos o ítems,
+    la propiedad flex-direction establece cuál es el eje principal y secundario en cuestión. */
 
     /* Alinear con respecto al eje principal: */
     /* justify-content: center; start; end; space-between; space-around; space-evenly; */
