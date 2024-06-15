@@ -66,7 +66,7 @@ nav{
     /*Para que la lista de enlaces no tenga puntitos ni cuadrados.*/
     list-style: none;
     display: flex;
-    gap: 100px; /*Para establecer un espacio entre elementos*/
+    gap: 30px; /*Para establecer un espacio entre elementos*/
 } 
 
 /* Selectores descendentes */
