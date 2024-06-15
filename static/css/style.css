@@ -185,14 +185,13 @@ nav{
 
 .movie-item{
     border-radius: 20px;
-    width: 200px;
+    /* width: 200px; */
     font-size: 20px;
     cursor: pointer;
 }
 
 .movie-item-img{
-    width: 200px;
-    height: 300px;
+    width: 150px;
     object-fit: cover;
 }
 
