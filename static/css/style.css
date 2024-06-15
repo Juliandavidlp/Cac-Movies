@@ -54,7 +54,7 @@ nav{
     /* Alinear con respecto al eje principal: */
     /* justify-content: center; start; end; space-between; space-around; space-evenly; */
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
 
     /* Alinear con respecto al eje secundario */
     align-items: center; /*start; end; strech; */
