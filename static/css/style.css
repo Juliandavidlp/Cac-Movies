@@ -281,6 +281,9 @@ letra de un párrafo, a la primer línea de un texto, etc.*/
     align-content: space-evenly; /* Para alinear con respecto al eje secundario solo cuando trabajamos con flex-wrap o múltiples líneas. */
     /* La propiedad align-items: center es para cuando trabajamos con una sola línea */
 
+    /* Una notación para simplificar:*/
+    /* flex: <flex-grow> <flex-shrink><flex-basis> */
+    /* flex: 1 3 35%; */
 }
 
 /* Transformaciones */
