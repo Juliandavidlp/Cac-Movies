@@ -188,6 +188,8 @@ nav{
     /* width: 200px; */
     font-size: 20px;
     cursor: pointer;
+
+    flex-basis: 30%;
 }
 
 .movie-item-img{
@@ -273,7 +275,6 @@ letra de un párrafo, a la primer línea de un texto, etc.*/
 }
 
 .movies-flex{
-    background-color: #ffc098;
     height: 900px;
     display: flex;
     flex-wrap: wrap; /* Para que no generar un scroll horizontal y un desbordamiento por fuera del contenedor padre */
@@ -307,6 +308,8 @@ transitar de un estado inicial a un estado final a partir de determinadas propie
     /* flex-grow: 1,2,3,4, etc ; Un factor de crecimiento de un elemento hijo, por ej. para el ancho del mismo */
     flex-basis: 50%;
 } 
+
+
 /* Animaciones */
 
 /* Lo que diferencia las animaciones de las transiciones es que en las animaciones podemos crear fotogramas o estados 
