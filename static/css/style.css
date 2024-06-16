@@ -302,6 +302,9 @@ transitar de un estado inicial a un estado final a partir de determinadas propie
     transition: all 5.5s linear 1s; */
     /* La propiedad transition se puede desglosar y trabajar por partes para afectar propiedades en particular */
 
+#movie-6{
+    /* order: 1, 2 ,3 , 4, etc ; Para indicar el orden de los elementos dentro del contenedor de flex. */
+}
 /* Animaciones */
 
 /* Lo que diferencia las animaciones de las transiciones es que en las animaciones podemos crear fotogramas o estados 
