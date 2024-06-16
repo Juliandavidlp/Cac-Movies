@@ -304,7 +304,9 @@ transitar de un estado inicial a un estado final a partir de determinadas propie
 
 #movie-6{
     /* order: 1, 2 ,3 , 4, etc ; Para indicar el orden de los elementos dentro del contenedor de flex. */
-}
+    /* flex-grow: 1,2,3,4, etc ; Un factor de crecimiento de un elemento hijo, por ej. para el ancho del mismo */
+    flex-basis: 50%;
+} 
 /* Animaciones */
 
 /* Lo que diferencia las animaciones de las transiciones es que en las animaciones podemos crear fotogramas o estados 
