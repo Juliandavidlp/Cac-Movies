@@ -303,11 +303,10 @@ transitar de un estado inicial a un estado final a partir de determinadas propie
     transition: all 5.5s linear 1s; */
     /* La propiedad transition se puede desglosar y trabajar por partes para afectar propiedades en particular */
 
-#movie-6{
+/* #movie-6{
     /* order: 1, 2 ,3 , 4, etc ; Para indicar el orden de los elementos dentro del contenedor de flex. */
     /* flex-grow: 1,2,3,4, etc ; Un factor de crecimiento de un elemento hijo, por ej. para el ancho del mismo */
-    flex-basis: 50%;
-} 
+    /* flex-shrink: 1,2,3, etc ; El opuesto al flex-grow */
 
 
 /* Animaciones */
