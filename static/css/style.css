@@ -272,7 +272,15 @@ letra de un párrafo, a la primer línea de un texto, etc.*/
     content: "🌟"
 }
 
+.movies-flex{
+    background-color: #ffc098;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap; /* Para que no generar un scroll horizontal y un desbordamiento por fuera del contenedor padre */
+    align-content: space-evenly; /* Para alinear con respecto al eje secundario solo cuando trabajamos con flex-wrap o múltiples líneas. */
+    /* La propiedad align-items: center es para cuando trabajamos con una sola línea */
 
+}
 
 /* Transformaciones */
 
