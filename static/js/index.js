@@ -9,13 +9,13 @@ console.log('Buen día mundo desde la consola con una archivo externo!');
 //Declaración de variables:
 var movieOne; //Una variable global, legacy
 
-//Tipos de datos, declaración y definición:
+//Tipos de datos, declaración y definición de variables:
 let movie2= 'El padrino';
 let rating= 8; //number - integer
-let rating2=9.7; //number - float
+let rating2= 9.7; //number - float
 let rating3= "6.5";
 let isNew= false; // boolean o lógico
-let movie3=null // objet, para asignarle un string o un objeto, por ejemplo
+let movie3=null; // objet, para asignarle un string o un objeto, por ejemplo
 
 //Una propiedad y un valor, para definir un objeto
 let movie4={ 
