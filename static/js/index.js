@@ -1,18 +1,15 @@
 //Imprimir en la consola:
-console.log("Buen día mundo desde la consola con una archivo externo!");
+console.log('Buen día mundo desde la consola con una archivo externo!');
 
-// Comentario de una línea
-
+// Comentario de una línea.
 /* 
-    Comentario de 
-    varias líneas
-    ~
+    Comentario de varias líneas:
 */
 
-//Declaración de variables
+//Declaración de variables:
 var movieOne; //Una variable global, legacy
 
-//Tipos de datos, declaración y definición
+//Tipos de datos, declaración y definición:
 let movie2= 'El padrino';
 let rating= 8; //number - integer
 let rating2=9.7; //number - float
@@ -27,7 +24,8 @@ let movie4={
 
 console.log(typeof(rating3));
 
-const YEAR= 2024//Para declarar constantes, en mayúsculas.
+//Para declarar constantes, en mayúsculas.
+const YEAR = 2024;
 
 // Operaciones aritméticas
 let average= (rating+rating2 + parseInt(rating3)) / 2;
