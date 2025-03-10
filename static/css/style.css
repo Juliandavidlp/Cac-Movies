@@ -235,7 +235,7 @@ nav{
 } 
 
 /* #search{
-    position: sticky;
+    position: relative;
     top:0;
     z-index: 9999;
 }*/
